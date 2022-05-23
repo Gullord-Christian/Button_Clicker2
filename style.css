@@ -1,0 +1,116 @@
+/* * {
+    border: dotted;
+} */
+.navbar {
+    background-color: rgb(143, 142, 142);
+    /* height: 70px; */
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.navbar h3 {
+    width: 300px;
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(158, 154, 154);
+    border: 1px solid black;
+    height: 20px;
+}
+.navbar button {
+    background-color: teal;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 3px;
+    box-shadow: 3px 3px black;
+}
+.topcontainer {
+    height: 220px;
+    width: 900px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.topcontainerleft {
+    height: 220px;
+    width: 300px;
+    /* background-color: red; */
+    flex: 2;
+    display: flex;
+    margin-left: 80px;
+    text-align: center;
+    border: 3px solid black;
+}
+.toplefttitle {
+    height: 220px;
+    width: 200px;
+    /* background-color: rgb(195, 236, 81); */
+    margin-left: 10px;
+}
+.topcontainerleft h4 {
+    margin-top: 90px;
+    height: 100px;
+}
+.topcontainerleft button {
+    background-color: rgba(255, 255, 0, 0.651);
+    height: 30px;
+    width: 100px;
+    box-shadow: 2px 2px black;
+}
+
+.topcontainerright {
+    height: 150px;
+    /* width: 300px; */
+    /* background-color: blue; */
+    flex: 1;
+    justify-content: center;
+    border: 3px solid black;
+    margin-left: 60px;
+}
+.topcontainerright h1 {
+    text-align: center;
+    font-size: 25px;
+}
+.topcontainerright button {
+    background-color: rgb(48, 182, 104);
+    border-radius: 2px;
+    height: 30px;
+    width: 230px;
+    box-shadow: 2px 2px black;
+}
+
+.bottomcontainer {
+    height: 220px;
+    width: 850px;
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+.bottomcontainerbody {
+    /* height: 300px; */
+    width: 500px;
+    /* background-color: red; */
+    display: flex;
+    margin-left: 80px;
+    text-align: center;
+    border: 3px solid black;
+}
+.bottomtitle {
+    height: 210px;
+    width: 235px;
+    /* background-color: rgb(195, 236, 81); */
+    margin-left: 10px;
+}
+.bottomcontainer button {
+    background-color: rgba(255, 255, 0, 0.651);
+    height: 30px;
+    width: 100px;
+    margin-top: -7px;
+    box-shadow: 2px 2px black;
+}
+.bottomcontainer h4 {
+    margin-top: 85px;
+}
